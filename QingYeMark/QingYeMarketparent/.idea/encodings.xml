@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarker_search_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_Common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_Content_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_content_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_dao" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_manager_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_search_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_search_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_sellergoods_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_sellergoods_service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_serach_interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_shop_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarket_sorl_util" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/QingYeMarret_portal_web" charset="UTF-8" />
+  </component>
+</project>

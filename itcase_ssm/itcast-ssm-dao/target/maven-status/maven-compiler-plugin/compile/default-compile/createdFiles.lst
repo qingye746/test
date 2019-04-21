@@ -1,0 +1,8 @@
+com\qingye\dao\SysLogDao.class
+com\qingye\dao\ProductDao.class
+com\qingye\dao\RoleDao.class
+com\qingye\dao\TravellerDao.class
+com\qingye\dao\UserDao.class
+com\qingye\dao\PermissionDao.class
+com\qingye\dao\OrdersDao.class
+com\qingye\dao\MemberDao.class

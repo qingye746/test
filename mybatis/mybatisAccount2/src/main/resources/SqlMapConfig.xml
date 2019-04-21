@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="jdbcConfig.properties"></properties>
+    <settings>
+        <!--延迟加载设置-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+    <typeAliases>
+        <package name="com.domain"></package>
+    </typeAliases>
+    <!--配置环境-->
+    <environments default="mysql">
+        <!--id要和defauly一致-->
+        <environment id="mysql">
+            <!--transactionManager配置事务的类型-->
+            <transactionManager type="JDBC"></transactionManager>
+            <!--配置数据源或者是连接数据池有三个-->
+            <dataSource type="POOLED">
+                <!--配置连接数据库的4个基本信息-->
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    <mappers>
+        <!--使用xml方式-->
+        <!--<mapper resource="com/itheima/dao/IUserDao.xml"/>-->
+        <!--使用注解方式-->
+        <!--<mapper class="com.itheima.dao.IUserDao"/>-->
+        <!--加载的文件只能是映射配置文件或dao接口的包路径-->
+        <package name="com.dao"></package>
+    </mappers>
+    
+</configuration>
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jdbc_oracel" />
+        <module name="jdbc_oracle" />
+        <module name="springmvc_day02_01" />
+        <module name="SpringMVC_day02_02" />
+        <module name="ssm" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jdbc_oracel" target="1.5" />
+      <module name="jdbc_oracle" target="1.8" />
+      <module name="Spring__MVC" target="1.7" />
+      <module name="Spring_Day01" target="1.8" />
+      <module name="Spring_Day02" target="1.8" />
+      <module name="springmvc_day02_01" target="1.8" />
+      <module name="SpringMVC_day02_02" target="1.8" />
+      <module name="ssm" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

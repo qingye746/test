@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [06/Mar/2019:18:42:52 +0800] "GET /travel HTTP/1.1" 302 - http-bio-80-exec-1 0
+0:0:0:0:0:0:0:1 - - [06/Mar/2019:18:42:53 +0800] "GET /travel/header.html HTTP/1.1" 200 2382 http-bio-80-exec-10 40
+0:0:0:0:0:0:0:1 - - [06/Mar/2019:18:42:53 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-80-exec-11 0
+0:0:0:0:0:0:0:1 - - [06/Mar/2019:18:42:55 +0800] "GET /travel/route_list.html HTTP/1.1" 200 12674 http-bio-80-exec-11 1
+0:0:0:0:0:0:0:1 - - [06/Mar/2019:18:43:00 +0800] "GET /travel/favoriterank.html HTTP/1.1" 200 6731 http-bio-80-exec-18 1
+0:0:0:0:0:0:0:1 - - [06/Mar/2019:18:43:01 +0800] "GET /travel/css/ranking-list.css HTTP/1.1" 200 2303 http-bio-80-exec-18 1
+0:0:0:0:0:0:0:1 - - [06/Mar/2019:18:43:21 +0800] "GET /travel/index.html HTTP/1.1" 200 19689 http-bio-80-exec-18 2

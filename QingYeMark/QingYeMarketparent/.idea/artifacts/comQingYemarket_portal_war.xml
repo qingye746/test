@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="comQingYemarket_portal:war">
+    <output-path>$PROJECT_DIR$/comQingYemarket_portal/target</output-path>
+    <root id="archive" name="com.QingYemarket_portal-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="comQingYemarket_portal:war exploded" />
+    </root>
+  </artifact>
+</component>

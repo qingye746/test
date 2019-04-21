@@ -1,0 +1,9 @@
+com\qingyemarket\sellergoods\service\impl\ItemServiceImpl.class
+com\qingyemarket\sellergoods\service\impl\SpecificationOptionServiceImpl.class
+com\qingyemarket\sellergoods\service\impl\SellerServiceImpl.class
+com\qingyemarket\sellergoods\service\impl\TypeTemplateServiceImpl.class
+com\qingyemarket\sellergoods\service\impl\SpecificationServiceImpl.class
+com\qingyemarket\sellergoods\service\impl\GoodsServiceImpl.class
+com\qingyemarket\sellergoods\service\impl\BrandServiceImpl.class
+com\qingyemarket\sellergoods\service\impl\GoodsDescServiceImpl.class
+com\qingyemarket\sellergoods\service\impl\ItemCatServiceImpl.class

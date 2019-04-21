@@ -1,0 +1,8 @@
+com\qingye\domain\Traveller.class
+com\qingye\domain\Member.class
+com\qingye\domain\SysLog.class
+com\qingye\domain\Orders.class
+com\qingye\domain\Permission.class
+com\qingye\domain\Product.class
+com\qingye\domain\UserInfo.class
+com\qingye\domain\Role.class

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarker_search_interface/QingYeMarker_search_interface.iml" filepath="$PROJECT_DIR$/QingYeMarker_search_interface/QingYeMarker_search_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarket_Common/QingYeMarket_Common.iml" filepath="$PROJECT_DIR$/QingYeMarket_Common/QingYeMarket_Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarket_Content_service/QingYeMarket_Content_service.iml" filepath="$PROJECT_DIR$/QingYeMarket_Content_service/QingYeMarket_Content_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarket_content_interface/QingYeMarket_content_interface.iml" filepath="$PROJECT_DIR$/QingYeMarket_content_interface/QingYeMarket_content_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarket_dao/QingYeMarket_dao.iml" filepath="$PROJECT_DIR$/QingYeMarket_dao/QingYeMarket_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarket_manager_web/QingYeMarket_manager_web.iml" filepath="$PROJECT_DIR$/QingYeMarket_manager_web/QingYeMarket_manager_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarket_pojo/QingYeMarket_pojo.iml" filepath="$PROJECT_DIR$/QingYeMarket_pojo/QingYeMarket_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarket_search_service/QingYeMarket_search_service.iml" filepath="$PROJECT_DIR$/QingYeMarket_search_service/QingYeMarket_search_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarket_search_web/QingYeMarket_search_web.iml" filepath="$PROJECT_DIR$/QingYeMarket_search_web/QingYeMarket_search_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarket_sellergoods_interface/QingYeMarket_sellergoods_interface.iml" filepath="$PROJECT_DIR$/QingYeMarket_sellergoods_interface/QingYeMarket_sellergoods_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarket_sellergoods_service/QingYeMarket_sellergoods_service.iml" filepath="$PROJECT_DIR$/QingYeMarket_sellergoods_service/QingYeMarket_sellergoods_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarket_shop_web/QingYeMarket_shop_web.iml" filepath="$PROJECT_DIR$/QingYeMarket_shop_web/QingYeMarket_shop_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarket_sorl_util/QingYeMarket_sorl_util.iml" filepath="$PROJECT_DIR$/QingYeMarket_sorl_util/QingYeMarket_sorl_util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarketparent.iml" filepath="$PROJECT_DIR$/QingYeMarketparent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QingYeMarret_portal_web/QingYeMarret_portal_web.iml" filepath="$PROJECT_DIR$/QingYeMarret_portal_web/QingYeMarret_portal_web.iml" />
+    </modules>
+  </component>
+</project>

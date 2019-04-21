@@ -1,0 +1,5 @@
+com\itheima\dao\IAccountDao.class
+com\itheima\domain\AccountUser.class
+com\itheima\domain\User.class
+com\itheima\domain\Role.class
+com\itheima\domain\Account.class

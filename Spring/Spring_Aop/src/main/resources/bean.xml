@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--配置代理的service-->
+    <bean id="proxyAccService" factory-bean="beanFactory" factory-method="getAccountService"/>
+
+
+    <!--配置beanFactory-->
+    <bean id="beanFactory" class="com.qingye.proxy.BeanFactory">
+        <!--注入service-->
+        <property name="accountService" ref="accountService"/>
+        <!--注入事务管理器-->
+        <property name="transactionManager" ref="transactionManager"/>
+    </bean>
+    <!--配置service-->
+    <bean id="accountService" class="com.qingye.Service.Impl.AccountServiceImpl">
+        <!--注入dao-->
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+    <!--配置Dao对象-->
+    <bean id="accountDao" class="com.qingye.dao.Impl.AccountDaoImpl">
+        <!-- 注入QueryRunner -->
+        <property name="runner" ref="runner"/>
+        <!--注入connectionUtils-->
+        <property name="connUtils" ref="connUtils"/>
+
+    </bean>
+    <!--配置QueryRunner-->
+    <bean id="runner" class="org.apache.commons.dbutils.QueryRunner" scope="prototype"/>
+    <!--配置connUtils-->
+    <bean id="connUtils" class="com.qingye.utils.ConnUtils">
+
+        <!--注入数据源-->
+        <property name="dataSource" ref="dataSource"/>
+
+    </bean>
+    <!-- 配置数据源 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <!--连接数据库的必备信息-->
+        <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl" value="jdbc:mysql://localhost:3306/accountTest"/>
+        <property name="user" value="root"/>
+        <property name="password" value="root"/>
+    </bean>
+    <!--配置事务管理器-->
+    <bean id="transactionManager" class="com.qingye.utils.TransactionManager">
+        <!--注入connectionUtils-->
+        <property name="connUtils" ref="connUtils"/>
+    </bean>
+</beans>

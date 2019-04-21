@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        window.onload=function () {
+            var img = document.getElementById("checkcode");
+            img.onclick =function () {
+                var date = new Date().getTime();
+                img.src = "/day15/verificationCode?"+date;
+            }
+        }
+    </script>
+</head>
+<body>
+<img src="/day15/verificationCode" id="checkcode">;
+<a id="change" href="">换一张</a>
+</body>
+</html>

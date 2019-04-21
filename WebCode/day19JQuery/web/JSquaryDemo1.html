@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JQuary快速入门</title>
+    <script src="Js/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+<div id="div1">let's go</div>
+<div id="div2">hurry</div>
+<input type="button" value="点我" id="button">
+<script>
+    var div1 = $("#div1");
+    var div2 = $("#div2");
+    alert(div1.html());
+    alert(div2.html());
+
+  $(function () {
+      $("#div1").css("backgroundColor","blue");
+  });
+
+
+</script>
+</body>
+</html>

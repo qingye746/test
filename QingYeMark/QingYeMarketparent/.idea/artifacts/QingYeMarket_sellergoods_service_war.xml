@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="QingYeMarket_sellergoods_service:war">
+    <output-path>$PROJECT_DIR$/QingYeMarket_sellergoods_service/target</output-path>
+    <root id="archive" name="QingYeMarket_sellergoods_service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="QingYeMarket_sellergoods_service:war exploded" />
+    </root>
+  </artifact>
+</component>

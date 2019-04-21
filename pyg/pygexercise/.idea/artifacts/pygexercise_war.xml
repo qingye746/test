@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="pygexercise:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="pygexercise.war">
+      <element id="artifact" artifact-name="pygexercise:war exploded" />
+    </root>
+  </artifact>
+</component>

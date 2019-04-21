@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--xml文件需要namespace-->
+<mapper namespace="com.itheima.dao.IUserDao">
+    <!--如果数据库列名和实体类的属性名称不相同-->
+    <resultMap id="userMap" type="user">
+        <!--主键标签-->
+        <id property="id" column="id"></id>
+        <result property="username" column="username"></result>
+        <result property="address" column="address"></result>
+        <result property="sex" column="sex"></result>
+        <result property="birthday" column="birthday"></result>
+        <!--如果相同这些即可省略 property实体类名称 column数据库名称-->
+    </resultMap>
+    <sql id="templateSql">
+        SELECT *
+        FROM user
+    </sql>
+    <!--配置查询所有-->
+    <!--<select id="findAll" resultType="User">-->
+    <select id="findAll" resultMap="userMap">
+        SELECT *
+        FROM user
+    </select>
+
+    <!--查询用户-->
+    <select id="findUserById" resultType="User">
+        SELECT *
+        FROM user
+        WHERE id = #{id};
+    </select>
+
+    <!--添加用户-->
+    <insert id="userAdd" parameterType="User">
+        <!-- 配置保存时获取插入的 id -->
+        <selectKey keyColumn="id" keyProperty="id" resultType="int">
+            select last_insert_id();
+        </selectKey>
+        INSERT into user(username,address,sex,birthday)VALUES (#{username},#{address},#{sex},#{birthday});
+    </insert>
+
+
+    <!--修改用户-->
+    <update id="userUpdate" parameterType="User">
+        UPDATE user
+        SET username = #{username}, birthday = #{birthday}, sex = #{sex},
+            address  = #{address}
+        WHERE id = #{id};
+    </update>
+
+    <!--删除用户-->
+    <delete id="userDelById" parameterType="User">
+        DELETE FROM user
+        WHERE id = #{id};
+    </delete>
+
+    <!--模糊查询用户-->
+    <select id="findUserByName" resultMap="userMap">
+        SELECT *
+        FROM user
+        WHERE username LIKE '%${value}%';
+    </select>
+
+    <!--根据用户名称模糊查询，参数变成一个 QueryVo 对象了-->
+    <select id="findUserByVo" resultMap="userMap" parameterType="QueryVO">
+        SELECT *
+        FROM user
+        WHERE username LIKE #{user.username};
+    </select>
+
+    <!--多条件模糊查询-->
+    <select id="findUserByUser" resultMap="userMap" parameterType="user">
+        <include refid="templateSql"></include>
+        <where>
+            <if test="username != null and username != ''">
+                and username LIKE #{username}
+            </if>
+
+            <if test="address != null and address != ''">
+                AND address LIKE #{address}
+            </if>
+        </where>
+    </select>
+
+    <!--根据id集合查询-->
+    <!--
+    <foreach>标签用于遍历集合，它的属性：
+    collection:代表要遍历的集合元素，注意编写时不要写#{}
+    open:代表语句的开始部分
+    close:代表结束部分
+    -->
+    <select id="findUserByIDs" resultMap="userMap" parameterType="user">
+        <include refid="templateSql"></include>
+        <where>
+            <if test="ids != null and ids.size() > 0">
+                <foreach collection="ids" open="id in (" close=")" item="uid" separator=",">
+                    #{uid}
+                </foreach>
+
+            </if>
+        </where>
+    </select>
+</mapper>

@@ -1,0 +1,7 @@
+com\qingye\controller\RolesController.class
+com\qingye\controller\ProductController.class
+com\qingye\controller\OrdersController.class
+com\qingye\controller\LogAop.class
+com\qingye\controller\UsersController.class
+com\qingye\controller\SysLogController.class
+com\qingye\controller\PermissionController.class

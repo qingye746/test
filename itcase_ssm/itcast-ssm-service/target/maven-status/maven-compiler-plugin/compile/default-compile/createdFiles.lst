@@ -1,0 +1,12 @@
+com\qingye\service\impl\PermissionServiceImpl.class
+com\qingye\service\impl\UserServiceImpl.class
+com\qingye\service\ProductService.class
+com\qingye\service\OrdersService.class
+com\qingye\service\impl\OrderServiceImpl.class
+com\qingye\service\impl\ProductServiceImpl.class
+com\qingye\service\PermissionService.class
+com\qingye\service\RolesService.class
+com\qingye\service\impl\SysLogServiceImpl.class
+com\qingye\service\UserService.class
+com\qingye\service\SysLogService.class
+com\qingye\service\impl\RolesServiceImpl.class

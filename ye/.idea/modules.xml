@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CRUD/CRUD.iml" filepath="$PROJECT_DIR$/CRUD/CRUD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MBannotation/MBannotation.iml" filepath="$PROJECT_DIR$/MBannotation/MBannotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisAcc/mybatisAcc.iml" filepath="$PROJECT_DIR$/mybatisAcc/mybatisAcc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatisAcc2/mybatisAcc2.iml" filepath="$PROJECT_DIR$/mybatisAcc2/mybatisAcc2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ye.iml" filepath="$PROJECT_DIR$/ye.iml" />
+    </modules>
+  </component>
+</project>

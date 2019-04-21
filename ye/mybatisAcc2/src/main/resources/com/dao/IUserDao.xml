@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--xml文件需要namespace-->
+<mapper namespace="com.dao.IUserDao">
+    <resultMap id="userMap" type="user">
+        <id property="id" column="id"/>
+        <result property="username" column="username"/>
+        <result property="birthday" column="birthday"/>
+        <result property="sex" column="sex"/>
+        <result property="address" column="address"/>
+        <collection property="accounts" ofType="account" select="com.dao.IAccountDao.findAccByUid" column="id"/>
+
+    </resultMap>
+
+    <!--根据id查询-->
+    <select id="findById" parameterType="int" resultType="User">
+        SELECT  * FROM user WHERE id = #{uid};
+    </select>
+    
+    <!--查询所有用户-->
+    <select id="findUserAll" resultMap="userMap">
+        SELECT * from user
+    </select>
+</mapper>

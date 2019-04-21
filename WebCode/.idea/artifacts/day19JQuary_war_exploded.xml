@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="day19JQuary:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/day19JQuary_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="day19JQuery/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="day19JQuery" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

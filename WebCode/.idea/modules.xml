@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day15/day15.iml" filepath="$PROJECT_DIR$/day15/day15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day16/day16.iml" filepath="$PROJECT_DIR$/day16/day16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17/day17.iml" filepath="$PROJECT_DIR$/day17/day17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day17_case/day17_case.iml" filepath="$PROJECT_DIR$/day17_case/day17_case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day18/day18.iml" filepath="$PROJECT_DIR$/day18/day18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day19JQuery/day19JQuery.iml" filepath="$PROJECT_DIR$/day19JQuery/day19JQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day20JQuery/day20JQuery.iml" filepath="$PROJECT_DIR$/day20JQuery/day20JQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day21Ajax/day21Ajax.iml" filepath="$PROJECT_DIR$/day21Ajax/day21Ajax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day22redis/day22redis.iml" filepath="$PROJECT_DIR$/day22redis/day22redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/day23_maven/day23_maven.iml" filepath="$PROJECT_DIR$/day23_maven/day23_maven.iml" />
+    </modules>
+  </component>
+</project>

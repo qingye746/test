@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../Js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(function () {
+            var citys = $("#city li");
+            /*for (var i = 0; i < citys.length; i++) {
+                if("上海"==citys[i].innerHTML){
+                    continue;
+                }
+                alert(i+":"+citys[i].innerHTML)
+            }*/
+            citys.each(function (index,element) {
+                if("上海"==$(element).html()){
+                    return true;//continue
+                }
+                alert(index+":"+$(element).html())
+            })
+            /*$.each(citys,function () {
+                alert(this.innerHTML);
+            })
+*/
+        })
+
+    </script>
+</head>
+<body>
+<ul id="city">
+    <li>北京</li>
+    <li>上海</li>
+    <li>天津</li>
+    <li>重庆</li>
+</ul>
+</body>
+</html>

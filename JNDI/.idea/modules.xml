@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JNDI.iml" filepath="$PROJECT_DIR$/JNDI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mybatis/mybatis.iml" filepath="$PROJECT_DIR$/../mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../springDate/springDate.iml" filepath="$PROJECT_DIR$/../springDate/springDate.iml" />
+    </modules>
+  </component>
+</project>

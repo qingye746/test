@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="QingYeMarker_search_interface" />
+        <module name="QingYeMarket_Common" />
+        <module name="QingYeMarket_content_interface" />
+        <module name="QingYeMarket_Content_service" />
+        <module name="QingYeMarket_dao" />
+        <module name="QingYeMarket_manager_web" />
+        <module name="QingYeMarket_pojo" />
+        <module name="QingYeMarket_search_service" />
+        <module name="QingYeMarket_search_web" />
+        <module name="QingYeMarket_sellergoods_interface" />
+        <module name="QingYeMarket_sellergoods_service" />
+        <module name="QingYeMarket_shop_web" />
+        <module name="QingYeMarket_sorl_util" />
+        <module name="QingYeMarret_portal" />
+        <module name="QingYeMarret_portal_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="comQingYemarket_portal" target="1.7" />
+      <module name="generatorSqlmapCustom" target="1.7" />
+      <module name="QingYeMarker_search_interface" target="1.7" />
+      <module name="QingYeMarket_commmon" target="1.7" />
+      <module name="QingYeMarket_Common" target="1.7" />
+      <module name="QingYeMarket_common" target="1.7" />
+      <module name="QingYeMarket_content_interface" target="1.7" />
+      <module name="Qingyemarket_content_service" target="1.7" />
+      <module name="QingYeMarket_Content_service" target="1.7" />
+      <module name="QingYeMarket_dao" target="1.7" />
+      <module name="QingYeMarket_manager_web" target="1.7" />
+      <module name="QingYeMarket_pojo" target="1.7" />
+      <module name="QingYeMarket_search_service" target="1.7" />
+      <module name="QingYeMarket_search_web" target="1.7" />
+      <module name="QingYeMarket_sellergoods_interface" target="1.7" />
+      <module name="QingYeMarket_sellergoods_service" target="1.7" />
+      <module name="QingYeMarket_serach_interface" target="1.7" />
+      <module name="QingYeMarket_service" target="1.7" />
+      <module name="QingYeMarket_shop_web" target="1.7" />
+      <module name="QingYeMarket_sorl_util" target="1.7" />
+      <module name="QingyeMarketcontentinterface" target="1.7" />
+      <module name="QingYeMarketparent" target="1.7" />
+      <module name="QingYeMarketpojo" target="1.7" />
+      <module name="QingYeMarret_portal" target="1.7" />
+      <module name="QingYeMarret_portal_web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="dubbox_service_demo" target="1.7" />
+      <module name="dubbox_web_demo" target="1.7" />
+      <module name="dubboxDemoservice" target="1.7" />
+      <module name="pygexercise" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

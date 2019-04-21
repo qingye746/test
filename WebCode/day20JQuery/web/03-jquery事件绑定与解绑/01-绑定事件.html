@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../Js/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+    $(function () {
+        $("#name").click(function () {
+            alert("我被点击了")
+        }).mouseover(function () {
+            alert("鼠标来了")
+        }).mouseout(function () {
+            alert("鼠标走了")
+        }).off();
+        $("#name").focus(function () {
+            //失去焦点
+            alert("我获得焦点了")
+        })
+    })
+
+    </script>
+</head>
+<body>
+<input id="name" type="text" value="绑定点击事件">
+</body>
+</html>

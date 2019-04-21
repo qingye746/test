@@ -1,0 +1,20 @@
+package com.qingye;
+
+/**
+ * @Author: qingye
+ * @Date: 2019/3/31 0031 16:16
+ * @Version 1.0
+ */
+public class test {
+    public static void main(String[] args) {
+        System.out.println("dddddd");
+        System.out.println("dddddd");
+        System.out.println("dddddd");
+        System.out.println("dddddd");
+        System.out.println("dddddd");
+        System.out.println("dddddd");
+        System.out.println("dddddd");
+
+
+    }
+}

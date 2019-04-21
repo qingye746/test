@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--xml文件需要namespace-->
+<mapper namespace="com.itheima.dao.IAccountDao">
+    <!-- 建立对应关系 -->
+    <resultMap type="account" id="accountMap">
+        <id column="id" property="id"/>
+        <result column="uid" property="uid"/>
+        <result column="money" property="money"/>
+
+        <!-- 它是用于指定从表方的引用实体属性的 -->
+        <association property="user" javaType="user">
+            <id column="id" property="id"/>
+            <result column="username" property="username"/>
+            <result column="sex" property="sex"/>
+            <result column="birthday" property="birthday"/>
+            <result column="address" property="address"/>
+        </association>
+
+    </resultMap>
+    <resultMap id="userMap" type="user">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="address" property="address"/>
+        <result column="sex" property="sex"/>
+        <result column="birthday" property="birthday"/>
+
+        <!-- collection 是用于建立一对多中集合属性的对应关系
+        ofType 用于指定集合元素的数据类型
+        -->
+        <collection property="accounts" ofType="account">
+            <id column="id" property="id"/>
+            <result column="uid" property="uid"/>
+            <result column="money" property="money"/>
+        </collection>
+    </resultMap>
+
+    <resultMap id="roleMap" type="Role">
+        <id property="roleId" column="rid"/>
+        <result property="roleName" column="role_name"/>
+        <result property="roleDesc" column="role_desc"/>
+
+        <collection property="users" ofType="user">
+            <id column="id" property="id"/>
+            <result column="username" property="username"/>
+            <result column="address" property="address"/>
+            <result column="sex" property="sex"/>
+            <result column="birthday" property="birthday"/>
+        </collection>
+    </resultMap>
+    <resultMap id="userMap1" type="user">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="address" property="address"/>
+        <result column="sex" property="sex"/>
+        <result column="birthday" property="birthday"/>
+        <collection property="roles" ofType="role">
+            <id property="roleId" column="rid"/>
+            <result property="roleName" column="role_name"/>
+            <result property="roleDesc" column="role_desc"/>
+        </collection>
+    </resultMap>
+    <sql id="templateSql">
+        SELECT *
+        FROM user
+    </sql>
+
+    <!--查询所有用户账户信息-->
+    <select id="findAll" resultMap="accountMap">
+        SELECT
+            a.*,
+            u.*
+        FROM
+            account a,
+            user u
+        WHERE
+            a.uid = u.id
+    </select>
+
+    <!--查询所有用户账户信息通过User类-->
+    <select id="findAccAll" resultMap="userMap">
+        SELECT
+            a.*,
+            u.*
+        FROM
+            user u
+            LEFT JOIN
+            account a
+                ON
+                    u.id = a.uid
+    </select>
+
+    <!--查询所有对象分配的所有用户信息-->
+    <select id="findRoleAll" resultMap="roleMap">
+        SELECT
+            r.id AS rid,
+            r.role_name,
+            r.role_desc,
+            u.*
+        FROM
+            role r
+            LEFT OUTER JOIN
+            user_role ur
+                ON
+                    r.id = ur.rid
+            LEFT OUTER JOIN
+            user u
+                ON
+                    u.id = ur.uid
+
+
+    </select>
+
+    <!--查询用户的所用角色-->
+    <select id="findRoleAllByUser" resultMap="userMap1">
+        SELECT
+            u.*,
+            urr.rid,
+            urr.role_name,
+            urr.role_desc
+        FROM
+            USER u
+            LEFT  JOIN
+            ( SELECT
+                  *
+              FROM
+                  role r
+                  LEFT OUTER JOIN
+                  user_role ur
+                      ON
+                          r.id = ur.rid) urr
+                ON
+                    u.id =urr.uid
+    </select>
+</mapper>
+

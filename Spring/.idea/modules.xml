@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring.iml" filepath="$PROJECT_DIR$/Spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring1/Spring1.iml" filepath="$PROJECT_DIR$/Spring1/Spring1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Aop/Spring_Aop.iml" filepath="$PROJECT_DIR$/Spring_Aop/Spring_Aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_AopAnn/Spring_AopAnn.iml" filepath="$PROJECT_DIR$/Spring_AopAnn/Spring_AopAnn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Aop_Xml/Spring_Aop_Xml.iml" filepath="$PROJECT_DIR$/Spring_Aop_Xml/Spring_Aop_Xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Transaction_AllAnn/Spring_Transaction_AllAnn.iml" filepath="$PROJECT_DIR$/Spring_Transaction_AllAnn/Spring_Transaction_AllAnn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Transaction_Ann/Spring_Transaction_Ann.iml" filepath="$PROJECT_DIR$/Spring_Transaction_Ann/Spring_Transaction_Ann.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring_Transaction_Xml/Spring_Transaction_Xml.iml" filepath="$PROJECT_DIR$/Spring_Transaction_Xml/Spring_Transaction_Xml.iml" />
+    </modules>
+  </component>
+</project>

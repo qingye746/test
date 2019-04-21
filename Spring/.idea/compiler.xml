@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Spring1" />
+        <module name="Spring_Aop" />
+        <module name="Spring_Aop_Xml" />
+        <module name="Spring_AopAnn" />
+        <module name="Spring_Transaction_AllAnn" />
+        <module name="Spring_Transaction_Ann" />
+        <module name="Spring_Transaction_Xml" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Spring1" target="1.5" />
+      <module name="Spring2" target="1.5" />
+      <module name="Spring3" target="1.5" />
+      <module name="Spring_Aop" target="1.5" />
+      <module name="Spring_Aop_Xml" target="1.5" />
+      <module name="Spring_AopAnn" target="1.5" />
+      <module name="Spring_Transaction_AllAnn" target="1.5" />
+      <module name="Spring_Transaction_Ann" target="1.5" />
+      <module name="Spring_Transaction_Xml" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

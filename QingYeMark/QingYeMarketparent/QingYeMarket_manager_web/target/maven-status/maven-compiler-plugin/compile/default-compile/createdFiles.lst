@@ -1,0 +1,13 @@
+com\qingyemarket\manager\controller\SpecificationController.class
+com\qingyemarket\manager\controller\BrandController.class
+com\qingyemarket\manager\controller\ItemController.class
+com\qingyemarket\manager\controller\TypeTemplateController.class
+com\qingyemarket\manager\controller\UploadController.class
+com\qingyemarket\manager\controller\SpecificationOptionController.class
+com\qingyemarket\manager\controller\GoodsDescController.class
+com\qingyemarket\manager\controller\ContentController.class
+com\qingyemarket\manager\controller\ItemCatController.class
+com\qingyemarket\manager\controller\LoginController.class
+com\qingyemarket\manager\controller\ContentCategoryController.class
+com\qingyemarket\manager\controller\SellerController.class
+com\qingyemarket\manager\controller\GoodsController.class

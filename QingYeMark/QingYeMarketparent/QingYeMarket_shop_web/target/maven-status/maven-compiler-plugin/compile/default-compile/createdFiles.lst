@@ -1,0 +1,7 @@
+com\qingyemarket\shop\controller\UploadController.class
+com\qingyemarket\service\UserDetailsServiceImpl.class
+com\qingyemarket\shop\controller\SellerController.class
+com\qingyemarket\shop\controller\ItemCatController.class
+com\qingyemarket\shop\controller\LoginController.class
+com\qingyemarket\shop\controller\GoodsController.class
+com\qingyemarket\shop\controller\TypeTemplateController.class
