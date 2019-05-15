@@ -9,6 +9,7 @@ import com.qingyemarket.pojo.TbItemCat;
 import com.qingyemarket.pojo.TbItemCatExample;
 import com.qingyemarket.sellergoods.service.ItemCatService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 
 import java.util.List;
 
@@ -22,7 +23,8 @@ public class ItemCatServiceImpl implements ItemCatService {
 
 	@Autowired
 	private TbItemCatMapper itemCatMapper;
-	
+	@Autowired
+	private RedisTemplate redisTemplate;
 	/**
 	 * 查询全部
 	 */
@@ -102,8 +104,17 @@ public class ItemCatServiceImpl implements ItemCatService {
 
 		TbItemCatExample example = new TbItemCatExample();
 		TbItemCatExample.Criteria criteria = example.createCriteria();
+		//设置条件
 		criteria.andParentIdEqualTo( parentId);
-		return itemCatMapper.selectByExample(example);
+		//调用查询
+        List<TbItemCat> itemCatList = findAll();
+        //将模板ID放入缓存中（以商品分类名称为key，模板id为值）
+        for (TbItemCat itemCat : itemCatList) {
+            //放入大类为itemCat,小类为商品分类名称和所对应的模板ID
+            redisTemplate.boundHashOps("itemCat").put(itemCat.getName(),itemCat.getTypeId());
+        }
+
+        return itemCatMapper.selectByExample(example);
 	}
 
 }

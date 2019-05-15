@@ -15,6 +15,7 @@ com\qingyemarket\pojo\TbBrandExample$Criterion.class
 com\qingyemarket\pojo\TbItemExample$Criterion.class
 com\qingyemarket\pojo\TbCitiesExample.class
 com\qingyemarket\pojo\TbGoodsDescExample.class
+com\qingyemarket\pojo\TbSeckillGoodsExample$Criterion.class
 com\qingyemarket\pojogroup\Goods.class
 com\qingyemarket\pojo\TbSeller.class
 com\qingyemarket\pojo\TbUserExample$GeneratedCriteria.class
@@ -28,6 +29,7 @@ com\qingyemarket\pojo\TbItemCatExample$Criteria.class
 com\qingyemarket\pojo\TbFreightTemplateExample$Criteria.class
 com\qingyemarket\pojo\TbUserExample.class
 com\qingyemarket\pojo\TbOrderExample.class
+com\qingyemarket\pojo\TbSeckillGoodsExample$GeneratedCriteria.class
 com\qingyemarket\pojo\TbContentExample$Criterion.class
 com\qingyemarket\pojo\TbOrderExample$Criterion.class
 com\qingyemarket\pojo\TbUserExample$Criterion.class
@@ -44,9 +46,11 @@ com\qingyemarket\pojo\TbContentCategoryExample$Criterion.class
 com\qingyemarket\pojo\TbItemExample$GeneratedCriteria.class
 com\qingyemarket\pojo\TbAddressExample$GeneratedCriteria.class
 com\qingyemarket\pojo\TbCitiesExample$Criteria.class
+com\qingyemarket\pojo\TbSeckillOrderExample$Criterion.class
 com\qingyemarket\pojo\TbItemCatExample$Criterion.class
 com\qingyemarket\pojo\TbProvincesExample$GeneratedCriteria.class
 com\qingyemarket\pojo\TbSpecificationExample$Criterion.class
+com\qingyemarket\pojogroup\Cart.class
 com\qingyemarket\pojo\TbGoods.class
 com\qingyemarket\pojo\TbOrder.class
 com\qingyemarket\pojo\TbContentCategoryExample.class
@@ -55,9 +59,11 @@ com\qingyemarket\entity\PageResult.class
 com\qingyemarket\pojo\TbContentExample.class
 com\qingyemarket\pojo\TbTypeTemplateExample$Criteria.class
 com\qingyemarket\pojo\TbItemCat.class
+com\qingyemarket\pojo\TbSeckillOrderExample.class
 com\qingyemarket\pojo\TbCitiesExample$GeneratedCriteria.class
 com\qingyemarket\pojo\TbAreasExample.class
 com\qingyemarket\pojo\TbSellerExample$Criterion.class
+com\qingyemarket\pojo\TbSeckillGoodsExample$Criteria.class
 com\qingyemarket\pojo\TbFreightTemplateExample$GeneratedCriteria.class
 com\qingyemarket\pojogroup\Specification.class
 com\qingyemarket\pojo\TbItemExample.class
@@ -66,6 +72,7 @@ com\qingyemarket\pojo\TbAddressExample$Criterion.class
 com\qingyemarket\pojo\TbGoodsDescExample$GeneratedCriteria.class
 com\qingyemarket\pojo\TbOrderExample$Criteria.class
 com\qingyemarket\pojo\TbGoodsDescExample$Criteria.class
+com\qingyemarket\pojo\TbSeckillOrderExample$GeneratedCriteria.class
 com\qingyemarket\pojo\TbContentExample$GeneratedCriteria.class
 com\qingyemarket\pojo\TbFreightTemplateExample.class
 com\qingyemarket\pojo\TbItemCatExample.class
@@ -84,11 +91,14 @@ com\qingyemarket\pojo\TbSpecificationExample$Criteria.class
 com\qingyemarket\pojo\TbSellerExample$GeneratedCriteria.class
 com\qingyemarket\pojo\TbSpecificationOptionExample$Criteria.class
 com\qingyemarket\pojo\TbAreas.class
+com\qingyemarket\pojo\TbSeckillGoodsExample.class
 com\qingyemarket\pojo\TbBrand.class
 com\qingyemarket\pojo\TbOrderItemExample.class
 com\qingyemarket\pojo\TbAreasExample$GeneratedCriteria.class
 com\qingyemarket\pojo\TbSpecificationOption.class
+com\qingyemarket\pojo\TbSeckillOrderExample$Criteria.class
 com\qingyemarket\pojo\TbPayLog.class
+com\qingyemarket\pojo\TbSeckillGoods.class
 com\qingyemarket\pojo\TbContentExample$Criteria.class
 com\qingyemarket\pojo\TbFreightTemplateExample$Criterion.class
 com\qingyemarket\pojo\TbTypeTemplateExample$GeneratedCriteria.class
@@ -97,6 +107,7 @@ com\qingyemarket\pojo\TbGoodsExample.class
 com\qingyemarket\pojo\TbBrandExample$Criteria.class
 com\qingyemarket\pojo\TbAreasExample$Criteria.class
 com\qingyemarket\pojo\TbProvincesExample$Criterion.class
+com\qingyemarket\pojo\TbSeckillOrder.class
 com\qingyemarket\pojo\TbTypeTemplateExample.class
 com\qingyemarket\pojo\TbContentCategoryExample$Criteria.class
 com\qingyemarket\pojo\TbSpecificationExample$GeneratedCriteria.class

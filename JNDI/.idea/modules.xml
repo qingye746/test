@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JNDI.iml" filepath="$PROJECT_DIR$/JNDI.iml" />
       <module fileurl="file://$PROJECT_DIR$/../mybatis/mybatis.iml" filepath="$PROJECT_DIR$/../mybatis/mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../qingyetest/qingyetest.iml" filepath="$PROJECT_DIR$/../qingyetest/qingyetest.iml" />
       <module fileurl="file://$PROJECT_DIR$/../springDate/springDate.iml" filepath="$PROJECT_DIR$/../springDate/springDate.iml" />
     </modules>
   </component>

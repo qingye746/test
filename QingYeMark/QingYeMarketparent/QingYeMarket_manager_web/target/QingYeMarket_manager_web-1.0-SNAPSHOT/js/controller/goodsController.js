@@ -21,7 +21,7 @@ app.controller('goodsController' ,function($scope,$controller   ,goodsService, i
 			}			
 		);
 	}
-	
+
 	//查询实体 
 	$scope.findOne=function(id){				
 		goodsService.findOne(id).success(

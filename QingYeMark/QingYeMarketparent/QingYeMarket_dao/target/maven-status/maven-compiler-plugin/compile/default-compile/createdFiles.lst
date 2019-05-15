@@ -1,5 +1,7 @@
+com\qingyemarket\mapper\TbSeckillGoodsMapper.class
 com\qingyemarket\mapper\TbFreightTemplateMapper.class
 com\qingyemarket\mapper\TbSpecificationOptionMapper.class
+com\qingyemarket\mapper\TbSeckillOrderMapper.class
 com\qingyemarket\mapper\TbOrderMapper.class
 com\qingyemarket\mapper\TbAddressMapper.class
 com\qingyemarket\mapper\TbGoodsDescMapper.class

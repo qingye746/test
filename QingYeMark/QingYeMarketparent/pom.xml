@@ -22,7 +22,25 @@
         <module>QingYeMarket_search_service</module>
         <module>QingYeMarker_search_interface</module>
         <module>QingYeMarket_search_web</module>
-
+        <module>QingYeMarket_page_interface</module>
+        <module>QingYeMarket_page_service</module>
+        <module>QingYeMarket_page_web</module>
+        <module>QingYeMarket_user_interface</module>
+        <module>QingYeMarket_user_service</module>
+        <module>QingYeMarket_user_web</module>
+        <module>QingYeMarket_cart_interface</module>
+        <module>QingYeMarket_cart_service</module>
+        <module>QingYeMarket_cart_web</module>
+        <module>QingYeMarket_order_interface</module>
+        <module>QingYeMarket_order_service</module>
+        <module>QingYeMarket_pay_interface</module>
+        <module>QingYeMarket_pay_service</module>
+        <module>QingYeMarket_seckill_interface</module>
+        <module>QingYeMarket_seckill_service</module>
+        <module>QingYeMarket_seckill_web</module>
+        <module>QingYeMarket_task_service</module>
+        <module>QingYeMarket_task_service</module>
+        <module>QingYeMarket_task_service</module>
     </modules>
 	
 
@@ -277,6 +295,16 @@
                 <groupId>xml-apis</groupId>
                 <artifactId>xml-apis</artifactId>
                 <version>1.4.01</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-core</artifactId>
+                <version>3.2.5</version>
+            </dependency>
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+                <version>1.0.0-SNAPSHOT</version>
             </dependency>
         </dependencies>
 

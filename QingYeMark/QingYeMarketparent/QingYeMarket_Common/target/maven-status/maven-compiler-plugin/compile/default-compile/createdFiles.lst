@@ -1,1 +1,6 @@
 com\qingyemarket\util\FastDFSClient.class
+com\qingyemarket\util\HttpClient$1.class
+com\qingyemarket\util\CookieUtil.class
+com\qingyemarket\util\PhoneFormatCheckUtils.class
+com\qingyemarket\util\IdWorker.class
+com\qingyemarket\util\HttpClient.class

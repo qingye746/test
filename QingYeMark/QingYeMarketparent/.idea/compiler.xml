@@ -6,19 +6,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Qingye_sms" />
         <module name="QingYeMarker_search_interface" />
+        <module name="QingYeMarket_cart_interface" />
+        <module name="QingYeMarket_cart_service" />
+        <module name="QingYeMarket_cart_web" />
         <module name="QingYeMarket_Common" />
         <module name="QingYeMarket_content_interface" />
         <module name="QingYeMarket_Content_service" />
         <module name="QingYeMarket_dao" />
         <module name="QingYeMarket_manager_web" />
+        <module name="QingYeMarket_order_interface" />
+        <module name="QingYeMarket_order_service" />
+        <module name="QingYeMarket_page_interface" />
+        <module name="QingYeMarket_page_service" />
+        <module name="QingYeMarket_page_web" />
+        <module name="QingYeMarket_pay_interface" />
+        <module name="QingYeMarket_pay_service" />
         <module name="QingYeMarket_pojo" />
         <module name="QingYeMarket_search_service" />
         <module name="QingYeMarket_search_web" />
+        <module name="QingYeMarket_seckill_interface" />
+        <module name="QingYeMarket_seckill_service" />
+        <module name="QingYeMarket_seckill_web" />
+        <module name="QingYeMarket_seckillinterface" />
         <module name="QingYeMarket_sellergoods_interface" />
         <module name="QingYeMarket_sellergoods_service" />
         <module name="QingYeMarket_shop_web" />
         <module name="QingYeMarket_sorl_util" />
+        <module name="QingYeMarket_task_service" />
+        <module name="QingYeMarket_user_interface" />
+        <module name="QingYeMarket_user_service" />
+        <module name="QingYeMarket_user_web" />
         <module name="QingYeMarret_portal" />
         <module name="QingYeMarret_portal_web" />
       </profile>
@@ -26,7 +45,12 @@
     <bytecodeTargetLevel>
       <module name="comQingYemarket_portal" target="1.7" />
       <module name="generatorSqlmapCustom" target="1.7" />
+      <module name="QingYe_sms" target="1.7" />
+      <module name="Qingye_sms" target="1.7" />
       <module name="QingYeMarker_search_interface" target="1.7" />
+      <module name="QingYeMarket_cart_interface" target="1.7" />
+      <module name="QingYeMarket_cart_service" target="1.7" />
+      <module name="QingYeMarket_cart_web" target="1.7" />
       <module name="QingYeMarket_commmon" target="1.7" />
       <module name="QingYeMarket_Common" target="1.7" />
       <module name="QingYeMarket_common" target="1.7" />
@@ -35,16 +59,35 @@
       <module name="QingYeMarket_Content_service" target="1.7" />
       <module name="QingYeMarket_dao" target="1.7" />
       <module name="QingYeMarket_manager_web" target="1.7" />
+      <module name="QingYeMarket_order_interface" target="1.7" />
+      <module name="QingYeMarket_order_service" target="1.7" />
+      <module name="QingYeMarket_page_interface" target="1.7" />
+      <module name="QingYeMarket_page_service" target="1.7" />
+      <module name="QingyeMarket_page_web" target="1.7" />
+      <module name="QingYeMarket_page_Web" target="1.7" />
+      <module name="QingYeMarket_page_web" target="1.7" />
+      <module name="QingYeMarket_pay_interface" target="1.7" />
+      <module name="QingYeMarket_pay_service" target="1.7" />
       <module name="QingYeMarket_pojo" target="1.7" />
       <module name="QingYeMarket_search_service" target="1.7" />
       <module name="QingYeMarket_search_web" target="1.7" />
+      <module name="QingYeMarket_seckill_interface" target="1.7" />
+      <module name="QingYeMarket_seckill_service" target="1.7" />
+      <module name="QingYeMarket_seckill_web" target="1.7" />
+      <module name="QingYeMarket_seckillinterface" target="1.7" />
       <module name="QingYeMarket_sellergoods_interface" target="1.7" />
       <module name="QingYeMarket_sellergoods_service" target="1.7" />
       <module name="QingYeMarket_serach_interface" target="1.7" />
       <module name="QingYeMarket_service" target="1.7" />
       <module name="QingYeMarket_shop_web" target="1.7" />
       <module name="QingYeMarket_sorl_util" target="1.7" />
+      <module name="QingYeMarket_task_service" target="1.7" />
+      <module name="QingYeMarket_user_interface" target="1.7" />
+      <module name="QingYeMarket_user_service" target="1.7" />
+      <module name="QingYeMarket_user_web" target="1.7" />
+      <module name="QingYemarket_user_web" target="1.8" />
       <module name="QingyeMarketcontentinterface" target="1.7" />
+      <module name="QingYeMarketpage_web" target="1.7" />
       <module name="QingYeMarketparent" target="1.7" />
       <module name="QingYeMarketpojo" target="1.7" />
       <module name="QingYeMarret_portal" target="1.7" />

@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/../springDate/pom.xml" />
+        <option value="$PROJECT_DIR$/../qingyetest/pom.xml" />
       </list>
     </option>
   </component>

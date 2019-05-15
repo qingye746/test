@@ -8,12 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="JNDI" />
         <module name="mybatis" />
+        <module name="qingyetest" />
         <module name="springDate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="JNDI" target="1.7" />
       <module name="mybatis" target="1.5" />
+      <module name="qingyetest" target="1.5" />
       <module name="springDate" target="1.5" />
       <module name="springDateDemo" target="1.5" />
       <module name="springDateSorlDemo" target="1.5" />

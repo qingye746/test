@@ -8,21 +8,23 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../../pom.xml" />
+        <option value="$PROJECT_DIR$/QingYeMarket_page_web/pom.xml" />
+        <option value="$PROJECT_DIR$/Qingye_sms/pom.xml" />
+        <option value="$PROJECT_DIR$/QingYeMarket_user_interface/pom.xml" />
+        <option value="$PROJECT_DIR$/QingYeMarket_task_service/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/QingYeMarket_commmon/pom.xml" />
-        <option value="$PROJECT_DIR$/QingYeMarket_common/pom.xml" />
-        <option value="$PROJECT_DIR$/QingYeMarket_serach_interface/pom.xml" />
-        <option value="$PROJECT_DIR$/QingYeMarket_service/pom.xml" />
-        <option value="$PROJECT_DIR$/QingYeMarketpojo/pom.xml" />
-        <option value="$PROJECT_DIR$/QingyeMarketcontentinterface/pom.xml" />
-        <option value="$PROJECT_DIR$/Qingyemarket_content_service/pom.xml" />
-        <option value="$PROJECT_DIR$/comQingYemarket_portal/pom.xml" />
-        <option value="$PROJECT_DIR$/generatorSqlmapCustom/pom.xml" />
+        <option value="$PROJECT_DIR$/QingYeMarket_page_Web/pom.xml" />
+        <option value="$PROJECT_DIR$/QingYeMarket_seckillinterface/pom.xml" />
+        <option value="$PROJECT_DIR$/QingyeMarket_page_web/pom.xml" />
+        <option value="$PROJECT_DIR$/Qingye_cart_interface/pom.xml" />
       </set>
     </option>
+  </component>
+  <component name="ProjectResources">
+    <resource url="http://activemq.apache.org/schema/core" location="$PROJECT_DIR$" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

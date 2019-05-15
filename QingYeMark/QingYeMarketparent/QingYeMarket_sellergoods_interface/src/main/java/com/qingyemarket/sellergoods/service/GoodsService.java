@@ -2,6 +2,7 @@ package com.qingyemarket.sellergoods.service;
 
 import com.qingyemarket.entity.PageResult;
 import com.qingyemarket.pojo.TbGoods;
+import com.qingyemarket.pojo.TbItem;
 import com.qingyemarket.pojogroup.Goods;
 
 import java.util.List;
@@ -62,5 +63,19 @@ public interface GoodsService {
 	 */
 	public PageResult findPage(TbGoods goods, int pageNum, int pageSize);
 
-	public void updateStatus(long[] ids, String status) throws Exception;
+	/**
+	 * 修改状态
+	 * @param ids
+	 * @param status
+	 * @throws Exception
+	 */
+	public void updateStatus(Long[] ids, String status) throws Exception;
+
+	/**
+	 * 根据商品ID和状态查询Item表信息
+	 * @param goodsIds
+	 * @param status
+	 * @return
+	 */
+	public List<TbItem> findItemListByGoodsIdAndStatus(Long[] goodsIds, String status );
 }

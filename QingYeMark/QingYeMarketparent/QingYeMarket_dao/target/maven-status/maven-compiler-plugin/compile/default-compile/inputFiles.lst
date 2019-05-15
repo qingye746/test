@@ -5,6 +5,7 @@ E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qin
 E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbProvincesMapper.java
 E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbSellerMapper.java
 E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbTypeTemplateMapper.java
+E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbSeckillOrderMapper.java
 E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbItemMapper.java
 E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbGoodsDescMapper.java
 E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbGoodsMapper.java
@@ -13,6 +14,7 @@ E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qin
 E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbSpecificationOptionMapper.java
 E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbOrderMapper.java
 E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbAreasMapper.java
+E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbSeckillGoodsMapper.java
 E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbCitiesMapper.java
 E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbFreightTemplateMapper.java
 E:\ideaCode\QingYeMark\QingYeMarketparent\QingYeMarket_dao\src\main\java\com\qingyemarket\mapper\TbContentCategoryMapper.java
